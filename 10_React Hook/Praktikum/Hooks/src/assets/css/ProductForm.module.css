@@ -1,0 +1,150 @@
+.container {
+    margin-left: auto;
+    margin-right: auto;
+}
+  
+.formContainer {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    margin-top: 32px;
+}
+  
+.formTitle {
+    font-weight: 500;
+    font-size: 23px;
+    line-height: 28.8px;
+    padding-left: 3px;
+    margin-bottom: 20px;
+}
+  
+.formField {
+    width: 100%;
+    margin-bottom: 16px;
+}
+
+.formFieldFreshness {
+    width: 100%;
+    margin-bottom: 0px;
+}
+  
+.formLabel {
+    display: block;
+    margin-bottom: 8px;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+}
+
+.formInputName {
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 3px;
+}
+
+.formInputCategory {
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 3px;
+    font-size: 16px;
+}
+
+.formInputFile {
+    border: 1px solid #0D6EFD;
+    border-radius: 4px;
+    font-size: 13px;
+    color: #0D6EFD;
+}
+
+.formInputPrice {
+    width: 100%;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 3px;
+}
+  
+.formTextarea {
+    width: 100%;
+    border: 1px solid #CED4DA;
+    border-radius: 4px;
+    padding: 3px;
+}
+  
+.formButton {
+    margin-top: 110px;
+    display: flex;
+    justify-content: center;
+}
+  
+.buttonSubmit {
+    background-color: #0d6efd !important;
+    color: #ffffff;
+    padding: 5px ;
+    border-radius: 4.8px;
+    width: 100%;
+    max-width: 90%;
+}
+
+
+/* List Product */
+.listContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.listTitle {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    padding: 8px;
+}
+  
+.tableContainer {
+    width: calc(70% - 30px);
+}
+  
+.table {
+    width: 100%;
+}
+  
+.table th {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.table td {
+    padding: 6px;
+    font-size: 14px;
+}
+  
+.table th {
+    border-bottom: 3px solid #dee2e6;
+}
+  
+.searchInput {
+    width: 194px;
+    border: 1px solid #CFD4D9;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+  
+.btnContainer {
+    margin-top: 0px;
+}
+  
+.btnDelete {
+    background-color: #0D6EFD;
+    color: white;
+    font-size: small;
+    padding: 5px 10px;
+}
+  
+.btnSearch {
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    color: #0D6EFD;
+    font-size: small;
+    padding: 5px 10px;
+}

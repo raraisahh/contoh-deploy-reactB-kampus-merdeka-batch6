@@ -1,0 +1,61 @@
+.listContainer {
+    margin-left: 20px;
+    margin-right: 20px;
+}
+  
+.listTitle {
+    font-size: 31px;
+    font-weight: 500;
+    line-height: 38px;
+    text-align: center;
+    padding: 8px;
+}
+  
+.tableContainer {
+    width: calc(70% - 30px);
+}
+  
+.table {
+    width: 100%;
+}
+  
+.table th {
+    padding: 6px;
+    font-size: 14px;
+}
+
+.table td {
+    padding: 6px;
+    font-size: 14px;
+}
+  
+.table th {
+    border-bottom: 3px solid #dee2e6;
+}
+  
+.searchInput {
+    width: 194px;
+    border: 1px solid #CFD4D9;
+    border-radius: 4px;
+    padding: 4px 10px;
+    font-size: 14px;
+}
+  
+.btnContainer {
+    margin-top: 0px;
+}
+  
+.btnDelete {
+    background-color: #0D6EFD;
+    color: white;
+    font-size: small;
+    padding: 5px 10px;
+}
+  
+.btnSearch {
+    background-color: white;
+    border: 1px solid #0D6EFD;
+    color: #0D6EFD;
+    font-size: small;
+    padding: 5px 10px;
+}
